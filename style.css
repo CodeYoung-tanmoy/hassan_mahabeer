@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.topnav a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: calibri;
+    color: cyan;
+    padding-left: 15px;
+    padding-right: 25px;
+    transition: 0.6s;
+}
+.topnav{
+    background-color: black;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.topnav a:hover{
+    background-color: orangered;
+    padding: 13px 25px 13px 15px;
+}
+.active{
+    padding: 13px 25px 13px 15px;
+    background-color: rgb(34, 84, 177);
+    color: cornsilk;
+}
+footer{
+    background-color: rgb(7, 7, 61);
+    color: white;
+    font-family: calibri;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
